@@ -1,0 +1,57 @@
+.header {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;
+    &__logo {
+        img {
+            width: 48px;
+            height: 48px;
+        }
+        // width: 48px;
+        // height: 48px;
+        // background: url('/src/img/logo.png');
+    }
+    .address {
+        &__text {
+            &-title {
+                font-family: 'Ubuntu', sans-serif;
+                // font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 150%;
+                /* identical to box height, or 19px */
+                color: #FFFFFF;
+            }
+        }
+    }
+    &__phone {
+        &-phone {
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            // line-height: 150%;
+            /* identical to box height, or 24px */
+            text-align: right;
+            /* белый */
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        &-title {
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 500;
+            font-size: 10px;
+            // line-height: 150%;
+            /* identical to box height, or 15px */
+            text-align: right;
+            text-decoration-line: underline;
+            /* белый */
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
+}
