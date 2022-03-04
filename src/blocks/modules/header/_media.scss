@@ -1,0 +1,136 @@
+    @media screen and (min-width: 768px) {
+        .header {
+            display: flex;
+            // justify-content: space-around;
+            align-items: center;
+            position: relative;
+            flex-wrap: wrap;
+            &__logo {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                margin-bottom: 1.56rem;
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            .address {
+                margin-left: 2.84rem;
+                display: flex;
+                margin-bottom: 1.5rem;
+                justify-content: center;
+                align-items: center;
+                img {
+                    // height: 25px;
+                    width: 25px;
+                }
+                &__text {
+                    &-title {
+                        font-family: 'Ubuntu', sans-serif;
+                        // font-style: normal;
+                        font-weight: 500;
+                        font-size: 0.875rem;
+                        // line-height: 150%;
+                    }
+                    &-subtitle {
+                        font-family: 'Ubuntu', sans-serif;
+                        // font-style: normal;
+                        font-weight: 500;
+                        font-size: 0.875rem;
+                        // line-height: 150%;
+                    }
+                }
+            }
+            &__phone {
+                margin-top: 1.56rem;
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+    
+    @media screen and (min-width: 1920px) {
+        .container {
+            max-width: 1290px;
+            .header {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 auto;
+                padding: 0 295px;
+                padding-top: 10px;
+                &__logo {
+                    // display: flex;
+                    // padding-left: 315px;
+                    img {
+                        width: 110px;
+                        height: 110px;
+                    }
+                }
+                .address {
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                    // padding-left: 15px;
+                    position: absolute;
+                    top: 42px;
+                    left: 662px;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                    &__text {
+                        margin-left: 1.039rem;
+                        &-title {
+                            font-family: 'Ubuntu', sans-serif;
+                            font-weight: 500;
+                            font-size: 1rem;
+                        }
+                        &-subtitle {
+                            margin-top: 10px;
+                            font-family: 'Ubuntu', sans-serif;
+                            font-weight: 500;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                &__phone {
+                    position: absolute;
+                    top: 15px;
+                    right: -334px;
+                    // display: flex;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        margin-right: 41px;
+                    }
+                    &-phone {
+                        padding-left: 15px;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-weight: 700;
+                        font-size: 1.25rem;
+                        line-height: 150%;
+                        /* identical to box height, or 30px */
+                        text-align: right;
+                    }
+                    &-title {
+                        font-family: 'Ubuntu', sans-serif;
+                        font-weight: 400;
+                        font-size: 0.75rem;
+                        /* identical to box height, or 18px */
+                        text-align: right;
+                        text-decoration-line: underline;
+                    }
+                    a {
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
