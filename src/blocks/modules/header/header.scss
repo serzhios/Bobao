@@ -1,6 +1,8 @@
+// .container {
+// }
 .header {
     position: relative;
-    padding-top: 1.25rem;
+    padding-top: 0.7031rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -13,6 +15,7 @@
         align-items: center;
         flex-direction: row;
         margin-bottom: 1.56rem;
+        // width: 30%;
         img {
             display: flex;
             align-items: center;
@@ -30,9 +33,11 @@
         // left: -1px;
         // width: 100%;
         display: flex;
+        order: 1;
         // flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        // width: 100%;
         // padding-top: 20px;
         img {
             display: flex;
@@ -65,8 +70,9 @@
     }
     &__phone {
         position: absolute;
-        top: 29px;
+        top: 19px;
         right: 2px;
+        // width: 70%;
         // display: flex;
         // justify-content: center;
         // align-items: center;

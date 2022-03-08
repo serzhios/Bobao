@@ -1,0 +1,66 @@
+.school {
+    padding-top: 85px;
+    &__text {
+        font-family: 'Ubuntu', sans-serif;
+        // font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 29px;
+        /* identical to box height, or 29px */
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__img {
+        padding-top: 40px;
+        // padding-bottom: 71px;
+        // z-index: -1;
+        &-image1 {
+            position: absolute;
+            left: 20px;
+            top: 773px;
+            background-image: url('../../img/prateek-katya.png');
+            width: 320px;
+            height: 300px;
+            // img {
+            // transform: rotate(180deg);
+            // transform: scale(-1, 1);
+            // filter: FlipH;
+            // transform: scaleX(-1);
+            // }
+        }
+        &-image2 {
+            position: absolute;
+            left: 174px;
+            top: 971px;
+            border: 2px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 192px;
+            padding: 6px;
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+    &__title {
+        height: 512px;
+        overflow: hidden;
+        padding-top: 372px;
+        padding-bottom: 40px;
+        // z-index: 1;
+        font-family: 'Ubuntu', sans-serif;
+        // font-style: normal;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 24px;
+        /* or 24px */
+        color: #FFFFFF;
+    }
+    &__btn {
+        position: absolute;
+        width: 277px;
+        height: 55px;
+        left: 20px;
+        top: 1343px;
+    }
+}

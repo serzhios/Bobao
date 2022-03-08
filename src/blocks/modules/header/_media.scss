@@ -1,8 +1,18 @@
     @media screen and (min-width: 768px) {
+        // .container {
+        //     display: flex;
+        //     align-items: center;
+        //     align-content: center;
+        //     justify-content: center;
+        //     // overflow: auto;
+        // }
         .header {
             display: flex;
             // justify-content: space-around;
-            align-items: center;
+            // align-items: center;
+            // align-content: center;
+            // justify-content: center;
+            // align-items: center;
             position: relative;
             flex-wrap: wrap;
             &__logo {
@@ -46,6 +56,12 @@
             }
             &__phone {
                 margin-top: 1.56rem;
+                position: absolute;
+                width: 175px;
+                height: 45px;
+                left: 550px;
+                top: 20px;
+                ;
                 img {
                     width: 25px;
                     height: 25px;
@@ -55,81 +71,84 @@
     }
     
     @media screen and (min-width: 1920px) {
-        .container {
-            max-width: 1290px;
-            .header {
-                position: relative;
+        // .container {
+        //     width: 1290px;
+        // }
+        .header {
+            margin: 0 auto;
+            // padding-top: 20px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 147px;
+            padding-top: 5px;
+            &__logo {
+                // display: flex;
+                // padding-left: 315px;
+                img {
+                    width: 110px;
+                    height: 110px;
+                }
+            }
+            .address {
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
-                margin: 0 auto;
-                padding: 0 295px;
-                padding-top: 10px;
-                &__logo {
-                    // display: flex;
-                    // padding-left: 315px;
-                    img {
-                        width: 110px;
-                        height: 110px;
-                    }
+                padding-left: 260px;
+                // position: absolute;
+                // top: 42px;
+                // left: 662px;
+                img {
+                    width: 40px;
+                    height: 40px;
                 }
-                .address {
-                    // display: flex;
-                    // justify-content: center;
-                    // align-items: center;
-                    // padding-left: 15px;
-                    position: absolute;
-                    top: 42px;
-                    left: 662px;
-                    img {
-                        width: 40px;
-                        height: 40px;
-                    }
-                    &__text {
-                        margin-left: 1.039rem;
-                        &-title {
-                            font-family: 'Ubuntu', sans-serif;
-                            font-weight: 500;
-                            font-size: 1rem;
-                        }
-                        &-subtitle {
-                            margin-top: 10px;
-                            font-family: 'Ubuntu', sans-serif;
-                            font-weight: 500;
-                            font-size: 1rem;
-                        }
-                    }
-                }
-                &__phone {
-                    position: absolute;
-                    top: 15px;
-                    right: -334px;
-                    // display: flex;
-                    img {
-                        width: 40px;
-                        height: 40px;
-                        margin-right: 41px;
-                    }
-                    &-phone {
-                        padding-left: 15px;
-                        font-family: 'Ubuntu', sans-serif;
-                        font-weight: 700;
-                        font-size: 1.25rem;
-                        line-height: 150%;
-                        /* identical to box height, or 30px */
-                        text-align: right;
-                    }
+                &__text {
+                    margin-left: 1.039rem;
                     &-title {
                         font-family: 'Ubuntu', sans-serif;
-                        font-weight: 400;
-                        font-size: 0.75rem;
-                        /* identical to box height, or 18px */
-                        text-align: right;
-                        text-decoration-line: underline;
+                        font-weight: 500;
+                        font-size: 1rem;
                     }
-                    a {
-                        padding-left: 15px;
+                    &-subtitle {
+                        margin-top: 10px;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-weight: 500;
+                        font-size: 1rem;
                     }
+                }
+            }
+            &__phone {
+                position: absolute;
+                top: 10px;
+                left: 472px;
+                text-align: center;
+                width: 100%;
+                // display: flex;
+                img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 41px;
+                }
+                &-phone {
+                    padding-left: 15px;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 700;
+                    font-size: 1.25rem;
+                    line-height: 150%;
+                    /* identical to box height, or 30px */
+                    text-align: right;
+                }
+                &-title {
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 400;
+                    font-size: 0.75rem;
+                    /* identical to box height, or 18px */
+                    text-align: right;
+                    text-decoration-line: underline;
+                }
+                a {
+                    padding-left: 15px;
                 }
             }
         }
